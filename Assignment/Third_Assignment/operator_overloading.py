@@ -1,0 +1,127 @@
+class A:
+    def __init__(self, a):
+        self.a = a
+
+    # define behavior of +
+    def __add__(self, o):
+        return self.a + o.a
+
+
+ob1 = A(1)
+ob2 = A(2)
+ob3 = A("Geeks")
+ob4 = A("For")
+
+print(ob1 + ob2)  # integer addition
+print(ob3 + ob4)  # string concatenation
+
+# actual working (internally)
+print(A.__add__(ob1, ob2))
+print(A.__add__(ob3, ob4))
+print(ob1.__add__(ob2))  # 3
+print(ob3.__add__(ob4))  # "GeeksFor"
+
+
+# complex
+class Complex:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def __add__(self, other):
+        return self.a + other.a, self.b + other.b
+
+
+Ob1 = Complex(1, 2)
+Ob2 = Complex(2, 3)
+Ob3 = Ob1 + Ob2
+print(Ob3)
+
+
+# Overloading Comparison Operators
+class A:
+    def __init__(self, a):
+        self.a = a
+
+    def __gt__(self, other):
+        return self.a > other.a
+
+
+ob1 = A(2)
+ob2 = A(3)
+if ob1 > ob2:
+    print("ob1 is greater than ob2")
+else:
+    print("ob2 is greater than ob1")
+
+
+class A:
+    def __init__(self, a):
+        self.a = a
+
+    def __lt__(self, other):
+        return "ob1 is less than ob2" if self.a < other.a else "ob2 is less than ob1"
+
+    def __eq__(self, other):
+        return "Both are equal" if self.a == other.a else "Not equal"
+
+
+ob1 = A(2)
+ob2 = A(3)
+print(ob1 < ob2)
+
+ob3 = A(4)
+ob4 = A(4)
+print(ob3 == ob4)
+
+
+# Overloading Boolean Operators
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+
+    def __and__(self, other):
+        return MyClass(self.value and other.value)
+
+
+a = MyClass(True)
+b = MyClass(False)
+c = a & b
+print(c.value)
+
+
+"""
+operator overloading can be done in pyhton using dunder method (or magical methods) that defines how 
+a operator works in a class
+__add__(self, other): for +
+__sub__(self, other): for -
+__mul__(self, other): for *
+__truediv__(self, other): for /
+__floordiv__(self, other): for //
+__mod__(self, other): for %
+__pow__(self, other): for **
+these are arithmetic dunder methods that overload the respective operator
+"""
+
+
+# to overload + to add two vectors
+class vector:
+    def __init__(self, i, j):
+        self.i = i
+        self.j = j
+
+    def __str__(self):
+        return f"{self.i}i+{self.j}j"
+
+    def __add__(self, v):
+        return f"{self.i+v.i}i+{self.j+v.j}j"
+
+    def __mul__(self, v):
+        return f"{self.i*v.i}i,{self.j*v.j}j"
+
+
+v1 = vector(2, 3)
+v2 = vector(1, 4)
+print("the vector sum is ", (v1 + v2))
+print("the vector multiplication is ", (v1 * v2))
+print("\n")
