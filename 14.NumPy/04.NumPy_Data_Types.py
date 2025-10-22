@@ -24,6 +24,7 @@ print(arr.dtype)
 arr = np.array(["apple", "banana", "cherry"])
 print(arr.dtype)
 
+
 # Creating Arrays With a Defined Data Type
 import numpy as np
 
