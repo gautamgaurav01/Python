@@ -22,6 +22,7 @@ arr = np.array([1, 2, 3, 4, 5, 6])
 newarr = np.array_split(arr, 4)
 print(newarr)
 
+
 """
 Split Into Arrays
 The return value of the array_split() method is a list containing each of the split as an array.
@@ -65,6 +66,7 @@ arr = np.array(
 )
 newarr = np.array_split(arr, 3, axis=1)
 print(newarr)
+
 
 #
 import numpy as np

@@ -1,5 +1,6 @@
 """
 The Difference Between Copy and View
+
 The main difference between a copy and a view of an array is that the copy is a new array,
 and the view is just a view of the original array.
 
@@ -11,6 +12,7 @@ array, and any changes made to the original array will affect the view.
 """
 
 # COPY:
+
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])
@@ -21,6 +23,7 @@ print(x)
 
 
 # VIEW:
+
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])
@@ -31,6 +34,7 @@ print(x)
 
 
 # Make Changes in the VIEW:
+
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])
@@ -41,6 +45,7 @@ print(x)
 
 
 # Check if Array Owns its Data
+
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])

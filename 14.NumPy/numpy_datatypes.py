@@ -48,15 +48,20 @@ integer etc. or you can use the data type directly like float for float and int 
 """
 
 import numpy as np
+
 arr = np.array([1.1, 2.1, 3.1])
-newarr = arr.astype('i')
+newarr = arr.astype("i")
 print(newarr)
 print(newarr.dtype)
 
+
+#
 newarr = arr.astype(int)
 print(newarr)
 print(newarr.dtype)
 
+
+#
 arr = np.array([1, 0, 3])
 newarr = arr.astype(bool)
 print(newarr)
