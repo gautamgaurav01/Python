@@ -64,18 +64,3 @@ result_sum = a1.sum()
 result_mean = a1.mean()
 print(result_sum)
 print(result_mean)
-
-
-# Vectorized Sum vs. Iterative Sum
-import numpy as np
-import time
-
-start_time = time.time()
-vectorized_sum = np.sum(np.arange(15000))
-print("Vectorized sum:", vectorized_sum)
-print("Time taken by vectorized sum:", time.time() - start_time)
-
-start_time = time.time()
-iterative_sum = sum(range(15000))
-print("\nIterative sum:", iterative_sum)
-print("Time taken by iterative sum:", time.time() - start_time)
