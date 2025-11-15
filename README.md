@@ -1,13 +1,15 @@
 # 🐍 Python Programming Roadmap (12 Weeks)
 
-This is a complete Python programming roadmap including topics, assignments, projects, resources, and deadlines. Designed for beginners to become Python-ready for Data Science in 12 weeks.  
+This is a complete Python programming roadmap including topics, assignments, projects, resources, and deadlines. Designed for beginners to become Python-ready for Data Science in 12 weeks.
 
-**Weekly Report Submitting To:** Shiva Sir  
+**Weekly Report Submitting To:** Shiva Sir
 
 ---
 
 ## Week 1–2: Python Basics
+
 **Topics**
+
 - Python setup (Anaconda / VS Code / Jupyter)
 - Data types: int, float, str, bool
 - Variables, operators, input/output
@@ -15,6 +17,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 - Loops (for, while, break, continue)
 
 **Assignments**
+
 - Prime number checker
 - Calculator (add, subtract, multiply, divide)
 - Multiplication table
@@ -25,6 +28,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ✅ Student Grading System
 
 **Resources**
+
 - Programming with Mosh – Python for Beginners (YouTube)
 - CodeWithHarry Python Playlist (Hindi, YouTube)
 - Book: Automate the Boring Stuff with Python (Al Sweigart)
@@ -34,7 +38,9 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ---
 
 ## Week 3–4: Intermediate Python
+
 **Topics**
+
 - Functions (arguments, return, recursion)
 - Lists, Tuples, Sets, Dictionaries
 - String handling & formatting
@@ -42,6 +48,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 - Error handling (try/except)
 
 **Assignments**
+
 - Palindrome checker
 - Word frequency counter from text file
 - Shopping cart using dictionary
@@ -52,6 +59,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ✅ Contact Book App (File-based)
 
 **Resources**
+
 - Corey Schafer Python Playlist (YouTube)
 - FreeCodeCamp Python Course (4 hrs, YouTube)
 
@@ -60,14 +68,17 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ---
 
 ## Week 5–6: Object-Oriented Programming (OOP)
+
 **Topics**
+
 - Classes & Objects
 - Constructors, methods
 - Inheritance, Polymorphism
 - Encapsulation, Abstraction
-- Magic methods (__init__, __str__)
+- Magic methods (**init**, **str**)
 
 **Assignments**
+
 - BankAccount class (deposit/withdraw)
 - Student class (marks → average → grade)
 - Shape hierarchy (Circle, Rectangle, Triangle)
@@ -78,6 +89,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ✅ ATM Simulator (OOP + File Handling)
 
 **Resources**
+
 - Telusko OOP in Python (YouTube)
 - Corey Schafer – OOP Series (YouTube)
 
@@ -86,7 +98,9 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ---
 
 ## Week 7–8: Python for Data Science
+
 **Topics**
+
 - NumPy (arrays, slicing, vectorized ops)
 - Pandas (DataFrame, filtering, groupby)
 - Data cleaning (missing values, duplicates)
@@ -94,6 +108,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 - Seaborn (heatmap, pairplot, distplot)
 
 **Assignments**
+
 - NumPy: 2D matrix multiplication
 - Pandas: Titanic dataset → clean & analyze survival rate
 - 5 plots (bar, line, scatter, histogram, heatmap)
@@ -104,6 +119,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ✅ EDA Project (Titanic/Netflix dataset)
 
 **Resources**
+
 - Krish Naik Pandas & NumPy (YouTube)
 - CampusX Playlist – Pandas & Visualization (YouTube)
 - Book: Python for Data Analysis (Wes McKinney)
@@ -113,7 +129,9 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ---
 
 ## Week 9–10: Advanced Python
+
 **Topics**
+
 - Regular Expressions (Regex)
 - JSON & APIs (requests library)
 - Automation with os, shutil
@@ -121,6 +139,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 - Git & GitHub basics
 
 **Assignments**
+
 - Regex: Extract emails from text
 - Fetch weather API data → save CSV
 - Web scraping quotes/news
@@ -131,6 +150,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ✅ Weather Dashboard App (API + Pandas + Visualization)
 
 **Resources**
+
 - Tech With Tim – APIs in Python (YouTube)
 - Corey Schafer – Python Regex (YouTube)
 - FreeCodeCamp – Git & GitHub (YouTube)
@@ -140,13 +160,16 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ---
 
 ## Week 11–12: Final Projects & Portfolio
+
 **Topics**
+
 - Integrating Python skills into real projects
 - Writing documentation (README, comments)
 - GitHub portfolio building
 - Project presentation
 
 **Assignments**
+
 - Revise all previous projects
 - Write documentation (README.md for GitHub)
 - Present projects with slides or report
@@ -155,6 +178,7 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ✅ Choose 2–3 final projects (Library Management System, EDA Project, Weather Dashboard, ATM Simulator, File Organizer Tool)
 
 **Resources**
+
 - Data Professor Projects (YouTube)
 - Codebasics Projects Playlist (YouTube)
 - Greeks for Greek Website
@@ -164,4 +188,5 @@ This is a complete Python programming roadmap including topics, assignments, pro
 ---
 
 ## 📅 Total Completion Deadline
+
 The entire Python Programming Course must be completed by **2082-08-10**.
