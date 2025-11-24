@@ -11,7 +11,7 @@ print(df, "\n")
 print(df.loc[[0, 1]], "\n")
 
 
-""" #Named Indexes """
+# Named Indexes
 import pandas as pd
 
 data = {"calories": [420, 380, 390], "duration": [50, 40, 45]}
@@ -42,7 +42,11 @@ import pandas as pd
 
 data = {"Name": ["Gaurav", "Sandesh"], "Age": [20, 21]}
 df = pd.DataFrame(data, index=["Student-1", "Student-2"])
+
+# Adding a coloum
 df["Work"] = ["Python", "Js"]
+
+# Adding a row
 df.loc["Student-3"] = ["Puskar", 19, "HTML"]
 print(df)
 print(df.info())
