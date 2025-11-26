@@ -7,8 +7,10 @@ Matplotlib is mostly written in python, a few segments are written in C, Objecti
 
 import matplotlib.pyplot as plt 
 
-x=[2023,2024,2025,2026]
-y=[15,25,30,20]
+import numpy as np
+
+x=np.array([2023,2024,2025,2026])
+y=np.array([15,25,30,20])
 
 plt.plot(x,y)
 #to show graph
